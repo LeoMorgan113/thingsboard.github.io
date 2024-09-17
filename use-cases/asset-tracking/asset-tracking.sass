@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+$step1: 360px
+$step2: 671px
+$step3: 999px
+$step4: 1279px
+$step5: 1439px
+$step6: 1919px
+$verticalStep1: 450px
+
+#asset-tracking
+    font-family: Poppins, serif
+    font-style: normal
+
+    .noToc
+        position: relative
+        overflow: hidden
+
+        .content-wrapper
+            width: 100%
+            display: flex
+            justify-content: center
+            flex-direction: column
+            align-items: center
+            position: relative
+            >*
+                width: 100%
+                max-width: 1920px
+                position: relative
+                z-index: 3
+
+        #content-mvp
+            z-index: 2
+            border-radius: 10px
+            background: rgba(255,255,255,0.2)
+            box-shadow: 0 0 10px 0 rgba(21,29,111,0.08)
+            backdrop-filter: blur(25px)
+
+        #content-market-solution
+            z-index: 1
+            background-color: white
+
+        #content-get-in-touch
+            display: flex
+            flex-direction: row
+            align-items: unset
+            justify-content: space-between
+            padding: 0 130px
+            max-width: 1920px
+
+    #hero
+        padding-top: 100px
+    .hero
+        padding-top: 100px
+
+    .try-demo
+        border-radius: 8px
+        background: linear-gradient(90deg, #2A7DEC 2.78%, #1D68CC 100%)
+        box-shadow: 0 24px 7px 0 rgba(15, 51, 87, 0.00), 0 15px 6px 0 rgba(15, 51, 87, 0.01), 0 9px 5px 0 rgba(15, 51, 87, 0.05), 0 4px 4px 0 rgba(15, 51, 87, 0.09), 0 1px 2px 0 rgba(15, 51, 87, 0.10)
+        text-align: center
+        color: white
+
+    .contact-us
+        border-radius: 8px
+        border: 1px solid #2A7DEC
+        background: #F0F9FF
+        text-align: center
+        color: #1D68CC
+
+    .label-tag
+        border-radius: 12px
+        background: #E0F0FE
+        color: #0362A1
+        padding: 8px 18px
+        width: fit-content
+        svg
+            margin-right: 8px
+            path
+                fill: #0362A1
+        &.inverse
+            border-radius: 12px
+            border: 1px solid #2E9DF2
+            background: rgba(20, 84, 144, 0.30)
+            color: #2E9DF2
+            svg path
+                fill: #2E9DF2
+
+
+    .block-title
+        color: #0F2742
+        font-size: 65px
+        font-weight: 500
+        line-height: 72px
+
+    .block-text
+        color: #485463
+        font-size: 20px
+        font-weight: 400
+        line-height: 33px
+
+    .left-side-block
+        display: flex
+        flex-direction: column
+        gap: 30px
+        &.inverse
+            .block-title
+                color: #F2F8FD
+            .block-text
+                color: #CFD4D9
+
+    .right-side-block
+        display: flex
+        flex-direction: column
+        gap: 30px
+        &.inverse
+            .block-title
+                color: #F2F8FD
+            .block-text
+                color: #CFD4D9
+
+    .representation-img
+        border-radius: 40px
+        background: #E0F2FE
+        box-shadow: 0 185px 52px 0 rgba(167, 200, 236, 0.00), 0 118px 47px 0 rgba(167, 200, 236, 0.01), 0 67px 40px 0 rgba(167, 200, 236, 0.05), 0 30px 30px 0 rgba(167, 200, 236, 0.09), 0 7px 16px 0 rgba(167, 200, 236, 0.10)
+
+    .link-to-doc
+        text-decoration: none
+        color: #2A7DEC
+
+    #first-screen
+        height: 100vh
+        min-height: 1000px
+        width: 100%
+        background: url("/images/asset-tracking/first-screen-background.svg") no-repeat center / contain
+        overflow: hidden
+        border-radius: 80px
+        margin-bottom: 120px
+
+        .hero-container
+            height: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            position: relative
+            margin: 0 20px
+
+            #hero-content
+                width: 100%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                text-align: initial
+                z-index: 1
+                padding-top: 60px
+
+                .asset-tr-title
+                    color: #0F2742
+                    text-align: center
+                    font-size: 90px
+                    font-weight: 500
+                    line-height: 100px
+                    margin-bottom: 30px
+
+                .asset-tr-sub-title
+                    color: #0F2742
+                    text-align: center
+                    font-size: 20px
+                    font-weight: 400
+                    line-height: 33px
+                    width: 40%
+                    margin-bottom: 50px
+
+                .hero-buttons
+                    display: flex
+                    flex-direction: row
+                    gap: 16px
+                    margin-bottom: 56px
+
+                .hero-image
+                    .image-wrapper-laptop
+                        position: absolute
+                        bottom: 0
+                        right: 19%
+
+                    .image-wrapper-phone
+                        position: absolute
+                        bottom: 0
+                        right: 6%
+
+
+    #what-is-that
+        margin-bottom: 190px
+        .what-is-that-block
+            display: flex
+            flex-direction: row
+            gap: 46px
+
+    #features
+        margin-bottom: 76px
+        .features-block
+            max-width: 940px
+
+    #features-cards
+        margin-bottom: 67px
+        .features-cards-block
+            display: flex
+            flex-direction: column
+            gap: 20px
+            .two-cards-in-row
+                display: flex
+                flex-direction: row
+                gap: 20px
+                .card
+                    display: flex
+                    flex-direction: column
+                    gap: 20px
+                    justify-content: space-between
+                    align-items: center
+                    border-radius: 40px
+                    background: #E0F2FE
+                    padding: 20px
+                    &.large
+                        flex-basis: 60%
+                    &.small
+                        flex-basis: 40%
+                    &.equal
+                        flex-basis: 50%
+                    .card-description
+                        display: flex
+                        flex-direction: column
+                        gap: 15px
+                        border-radius: 20px
+                        background: #F0F8FF
+                        padding: 20px
+                        .icon
+                            height: 40px
+                            width: 40px
+                        .card-title
+                            color: #0F2742
+                            font-size: 28px
+                            font-weight: 500
+                            line-height: 34px
+                        .card-text
+                            color: #485463
+                            font-size: 16px
+                            font-weight: 400
+                            line-height: 25px
+
+
+    #our-features
+        min-height: 1550px
+        height: 100%
+        width: 100%
+        background: url("/images/asset-tracking/our-features-background.svg") no-repeat top / contain
+        overflow: hidden
+        border-radius: 80px
+        margin-bottom: 120px
+        padding-top: 76px
+        .our-features-block
+            display: flex
+            flex-direction: column
+            gap: 20px
+            .title-block
+                display: flex
+                flex-direction: row
+                gap: 20px
+                .left-side-block, .right-side-block
+                    flex-basis: 50%
+                .right-side-block
+                    padding-top: 70px
+            .out-of-box-solution
+                display: flex
+                flex-direction: row
+                align-items: center
+                gap: 48px
+                .solution-text
+                    color: #F2F8FD
+                    font-size: 65px
+                    font-weight: 500
+                    line-height: 76px
+                    .blue
+                        color: #2E9DF2
+                    .yellow-green
+                        color: #C5FF50
+                .solution-image
+                    height: 406px
+                    width: 406px
+
+    #connectivity
+        .connectivity-block
+            display: flex
+            flex-direction: row
+            gap: 120px
+
+    #partners
+        .partners-block
+            display: flex
+            flex-direction: column
+            gap: 60px
+            .partners-logo
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                gap: 80px
+                justify-content: space-between
+                .logo
+                    max-width: 272px
+                    width: 100%
+
+
+    #resources
+        .resources-block
+            display: flex
+            flex-direction: column
+            gap: 60px
+            .resources-cards
+                display: flex
+                flex-direction: row
+                gap: 20px
+                .card
+                    display: flex
+                    flex-direction: column
+                    gap: 32px
+                    border-radius: 20px
+                    background: #F7FBFF
+                    box-shadow: 0 195px 55px 0 rgba(154, 160, 167, 0.00), 0 125px 50px 0 rgba(154, 160, 167, 0.01), 0 70px 42px 0 rgba(154, 160, 167, 0.05), 0 31px 31px 0 rgba(154, 160, 167, 0.09), 0 8px 17px 0 rgba(154, 160, 167, 0.10)
+                    .card-image
+                        img
+                            border-radius: 20px 20px 0 0
+                    .card-description
+                        display: flex
+                        flex-direction: column
+                        padding: 0 24px
+                        .description-title
+                            color: #0F2742
+                            font-size: 28px
+                            font-weight: 500
+                            line-height: 34px
+                        .description-text
+                            color: #485463
+                            font-size: 16px
+                            font-weight: 400
+                            line-height: 25px
+                    .card-button
+                        padding: 0 24px
+                        a
+                            display: block
+                            margin: 0
+
+
+    footer
+        position: relative
+
+
+
+    @media screen and (max-width: $step6)
+        .noToc
+            .content-wrapper
+                >*
+                    max-width: 1440px
+
+
+    @media screen and (max-width: $step5)
+        .noToc
+            .content-wrapper
+                >*
+                    max-width: 1280px
