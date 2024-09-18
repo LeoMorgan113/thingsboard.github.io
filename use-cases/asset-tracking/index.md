@@ -93,6 +93,13 @@ description: ""
                         onclick="onContactUsClick(1)">Contact Us</button>
                 </div>
         </div>
+        <div class="right-side-block">
+            <img id="feature-background"
+                srcset="/images/asset-tracking/feature-background.svg 1127w"
+                sizes="(max-width: 671px) 360px, (max-width: 999px) 560px, (min-width: 1000px)  1127px, 2254px"
+                src="/images/asset-tracking/feature-background.svg"
+                alt=""/>
+        </div>
     </div>
 </section>
 
@@ -119,9 +126,9 @@ description: ""
             </div>
             <div class="card small">
                 <div class="card-image">
-                    <img id="real-time-monitoring-card"
-                        src="/images/asset-tracking/real-time-monitoring-card.png"
-                        alt="Real-time monitoring and location tracking"/>
+                    <img id="local-management-card"
+                        src="/images/asset-tracking/local-management-card.png"
+                        alt="Location management"/>
                 </div>
                 <div class="card-description">
                     <img id="asset-icon" class="icon"
@@ -273,8 +280,129 @@ description: ""
                 </div>
             </div>
         </div>
-        <div class="solutions-carousel">
-            des
+        <div id="carousel-wrapper">
+            <div class="nav_buttons">
+                <button class="slider-nav-btn am-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                      <path d="M5.36562 20.8846L16.6156 32.1346C16.8502 32.3691 17.1683 32.5009 17.5 32.5009C17.8317 32.5009 18.1498 32.3691 18.3844 32.1346C18.6189 31.9 18.7507 31.5819 18.7507 31.2502C18.7507 30.9185 18.6189 30.6004 18.3844 30.3658L9.26719 21.2502H33.75C34.0815 21.2502 34.3995 21.1185 34.6339 20.8841C34.8683 20.6497 35 20.3317 35 20.0002C35 19.6687 34.8683 19.3507 34.6339 19.1163C34.3995 18.8819 34.0815 18.7502 33.75 18.7502H9.26719L18.3844 9.63458C18.6189 9.40003 18.7507 9.08191 18.7507 8.75021C18.7507 8.4185 18.6189 8.10038 18.3844 7.86583C18.1498 7.63128 17.8317 7.49951 17.5 7.49951C17.1683 7.49951 16.8502 7.63128 16.6156 7.86583L5.36562 19.1158C5.2494 19.2319 5.1572 19.3698 5.0943 19.5215C5.03139 19.6733 4.99901 19.8359 4.99901 20.0002C4.99901 20.1645 5.03139 20.3271 5.0943 20.4789C5.1572 20.6306 5.2494 20.7685 5.36562 20.8846Z" fill="#F2F8FD"/>
+                    </svg>
+                </button>
+                <button class="slider-nav-btn am-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <path d="M34.6344 20.8846L23.3844 32.1346C23.1498 32.3691 22.8317 32.5009 22.5 32.5009C22.1683 32.5009 21.8502 32.3691 21.6156 32.1346C21.3811 31.9 21.2493 31.5819 21.2493 31.2502C21.2493 30.9185 21.3811 30.6004 21.6156 30.3658L30.7328 21.2502H6.25C5.91848 21.2502 5.60054 21.1185 5.36612 20.8841C5.1317 20.6497 5 20.3317 5 20.0002C5 19.6687 5.1317 19.3507 5.36612 19.1163C5.60054 18.8819 5.91848 18.7502 6.25 18.7502H30.7328L21.6156 9.63458C21.3811 9.40003 21.2493 9.08191 21.2493 8.75021C21.2493 8.4185 21.3811 8.10038 21.6156 7.86583C21.8502 7.63128 22.1683 7.49951 22.5 7.49951C22.8317 7.49951 23.1498 7.63128 23.3844 7.86583L34.6344 19.1158C34.7506 19.2319 34.8428 19.3698 34.9057 19.5215C34.9686 19.6733 35.001 19.8359 35.001 20.0002C35.001 20.1645 34.9686 20.3271 34.9057 20.4789C34.8428 20.6306 34.7506 20.7685 34.6344 20.8846Z" fill="#F2F8FD"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="solution-carousel owl-carousel owl-theme">
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_handheart.svg" alt="slider handheart"/>
+                    </div>
+                    <div class="solution-header">Healthcare</div>
+                    <div class="solution-body">
+                        Asset tracking ensures that critical medical equipment such as ventilators, infusion pumps, and wheelchairs are always available when needed.   
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_briefcase.svg" alt="slider briefcase"/>
+                    </div>
+                    <div class="solution-header">Government</div>
+                    <div class="solution-body">
+                        Government agencies use an asset tracking system to manage public assets such as vehicles, equipment, and infrastructure.  
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_factory.svg" alt="slider factory"/>
+                    </div>
+                    <div class="solution-header">Industrial</div>
+                    <div class="solution-body">
+                        Fleet asset tracking relies on GPS to monitor vehicle locations, optimize routes, and ensure timely maintenance. 
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_anchor.svg" alt="slider anchor"/>
+                    </div>
+                    <div class="solution-header">Marines</div>
+                    <div class="solution-body">
+                        The maritime industry uses an asset tracking system to monitor vessels, cargo, and equipment.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_student.svg" alt="slider student"/>
+                    </div>
+                    <div class="solution-header">Education</div>
+                    <div class="solution-body">
+                        Schools and universities use education asset tracking solutions to manage IT equipment, lab instruments, and other educational resources.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_craneTower.svg" alt="slider craneTower"/>
+                    </div>
+                    <div class="solution-header">Construction</div>
+                    <div class="solution-body">
+                        Construction asset tracking systems monitor heavy equipment, tools, and materials.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_warehouse.svg" alt="slider warehouse"/>
+                    </div>
+                    <div class="solution-header">Warehouse and inventory</div>
+                    <div class="solution-body">
+                        Warehouses use   asset tracking solutions to manage inventory levels and track the movement of goods.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_building.svg" alt="slider building"/>
+                    </div>
+                    <div class="solution-header">Hotels</div>
+                    <div class="solution-body">
+                        Hotels use asset tracking to manage valuable items such as linens, cleaning supplies, and guest amenities.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_solarPanel.svg" alt="slider solarPanel"/>
+                    </div>
+                    <div class="solution-header">Solar energy</div>
+                    <div class="solution-body">
+                        Solar energy companies track equipment and maintenance schedules to ensure the optimal performance of solar panels and related infrastructure.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_thermometerCold.svg" alt="slider thermometerCold"/>
+                    </div>
+                    <div class="solution-header">Cold chain</div>
+                    <div class="solution-body">
+                        Asset tracking in the cold chain industry ensures optimal storage and transportation conditions for temperature-sensitive products such as pharmaceuticals and perishable food.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_airplaneTilt.svg" alt="slider airplaneTilt"/>
+                    </div>
+                    <div class="solution-header">Airports</div>
+                    <div class="solution-body">
+                        Airports use asset tracking to manage ground support equipment, baggage, and cargo.
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="logo">
+                        <img src="/images/asset-tracking/slider_cow.svg" alt="slider cow"/>
+                    </div>
+                    <div class="solution-header">Farming</div>
+                    <div class="solution-body">
+                        Farmers use asset tracking to monitor equipment, livestock, and crops.
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="out-of-box-solution">
             <div class="solution-text">
@@ -371,12 +499,8 @@ description: ""
         </div>
         <div class="resources-cards">
             <div class="card">
-                <div class="card-image">
-                    <img id="asset-management-article"
-                        srcset="/images/asset-tracking/asset-management-article.png 1127w"
-                        sizes="(max-width: 671px) 360px, (max-width: 999px) 560px, (min-width: 1000px)  1127px, 2254px"
-                        src="/images/asset-tracking/asset-management-article.png"
-                        alt="Asset management article"/>
+                <div class="card-image"
+                    style="background: url('/images/asset-tracking/asset-management-article.png') no-repeat top / contain">
                 </div>
                 <div class="card-description">
                     <div class="description-title">
@@ -392,12 +516,8 @@ description: ""
                 </div>
             </div>
             <div class="card">
-                <div class="card-image">
-                    <img id="health-article"
-                        srcset="/images/asset-tracking/health-article.png 1127w"
-                        sizes="(max-width: 671px) 360px, (max-width: 999px) 560px, (min-width: 1000px)  1127px, 2254px"
-                        src="/images/asset-tracking/health-article.png"
-                        alt="Health control article"/>
+                <div class="card-image"
+                    style="background: url('/images/asset-tracking/health-article.png') no-repeat top / contain">
                 </div>
                 <div class="card-description">
                     <div class="description-title">
@@ -413,12 +533,8 @@ description: ""
                 </div>
             </div>
             <div class="card">
-                <div class="card-image">
-                    <img id="best-practices-article"
-                        srcset="/images/asset-tracking/best-practices-article.png 1127w"
-                        sizes="(max-width: 671px) 360px, (max-width: 999px) 560px, (min-width: 1000px)  1127px, 2254px"
-                        src="/images/asset-tracking/best-practices-article.png"
-                        alt="Best practices article"/>
+                <div class="card-image"
+                    style="background: url('/images/asset-tracking/best-practices-article.png') no-repeat top / contain">
                 </div>
                 <div class="card-description">
                     <div class="description-title">
@@ -437,23 +553,75 @@ description: ""
     </div>
 </section>
 
-<script type="text/javascript">
-    var modal = document.getElementById("myModal");
+<section id="ready-to-start">
+        <div class="ready-to-start-block content-wrapper">
+            <div class="text-block">
+                <div class="title">
+                    Ready to get started?
+                </div>
+                <div class="text">
+                    Unique real-time asset tracking software with just one click
+                </div>
+            </div>
+            <div class="actions">
+                <a id="Menu_TryItNow" 
+                    href="/installations/" 
+                    class="n-button try-demo inverse gtm_button">Try demo</a>
+                <button id="Serv_DevServ_ContactUs2" 
+                    class="n-button contact-us inverse gtm_button" 
+                    onclick="onContactUsClick(1)">Contact Us</button>
+            </div>
+        </div>
+</section>
 
-    modal.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    };
-
-    var span = document.getElementsByClassName("close")[0];
-
-    span.onclick = function() {
-        modal.style.display = "none";
-    };
+<script type="text/javascript">;
 
     function onContactUsClick(index) {
-        handleGTMFormID(index);
-        modal.style.display = "flex";
+        console.log(index);
     }
+
+    jqueryDefer(Owl);
+
+    function Owl() {
+        var scriptsList = [
+            {src: '/css/owl.carousel.min.css', type: 'css'},
+            {src: '/css/owl.theme.default.min.css', type: 'css'},
+            {src: '/js/owl.carousel.min.js', type: 'script'}
+        ];
+        loadNextScript(0, scriptsList,
+            function() {
+                $(document).ready(function(){
+                    $('.owl-carousel').owlCarousel({
+                        loop: true,
+                        items:3,
+                        margin: 20,
+                        nav: false,
+                        autoplay: true,
+                        autoplayTimeout: 5000,
+                        autoplayHoverPause: true,
+                        dots: false,
+                        responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:2
+                            },
+                            1000:{
+                                items:3
+                            }
+                        }
+                    });
+                });
+            }
+        );
+    }
+
+    jquery('.am-next').click(function() {
+        owl.trigger('owl.prev');
+    });
+
+    jquery('.am-prev').click(function() {
+        owl.trigger('owl.next');
+    });
 </script>
