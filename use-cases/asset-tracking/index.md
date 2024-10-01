@@ -11,8 +11,10 @@ description: ""
 <section id="first-screen">
     <div class="hero-container">
         <div id="hero-content">
-            <h1 id="asset-tr-title-h1" class="asset-tr-title">Asset Tracking Software</h1>
-            <h2 class="asset-tr-sub-title">ThingsBoard Asset Tracking Software is specifically designed to track and manage physical assets in real time and provide insights to optimise productivity and logistics operations.</h2>
+            <h1 id="asset-tr-title-h1">Asset Tracking Software</h1>
+            <div class="asset-tr-sub-title block-text text-md">
+                ThingsBoard Asset Tracking Software is specifically designed to track and manage physical assets in real time and provide insights to optimise productivity and logistics operations.
+            </div>
             <div class="hero-buttons">
                 <a id="Menu_TryItNow" 
                     href="/installations/" 
@@ -52,10 +54,10 @@ description: ""
                 </svg>
                 What is that?
             </div>
-            <div class="block-title">
+            <h2>
                 What is Asset tracking software?
-            </div>
-            <div class="block-text">
+            </h2>
+            <div class="block-text text-md">
                 Asset tracking solution used to track and manage a company's physical assets using technologies such as GPS, Radio Frequency Identification (RFID), UWB, BLE and other tracking systems that transmit information about the location and condition of the assets. An asset tracking system provides accurate, real-time data on what a company owns and how those assets are being used or not used.
             </div>
         </div>
@@ -78,9 +80,9 @@ description: ""
                     </svg>
                     Key features
                 </div>
-                <div class="block-title">
+                <h3>
                     Real-time asset tracking software designed to simplify equipment tracking and management
-                </div>
+                </h3>
                 <div class="block-text">
                     A solution that can be quickly adapted to your needs, whether you are a small business or a large corporation, ThingsBoard asset tracking  allow you to always have all the information you need about your assets in real time
                 </div>
@@ -127,7 +129,7 @@ description: ""
                         src="/images/asset-tracking/asset-tracking-landing-icons/Geo_map_and_image_floor_plan_view.webp"
                         alt="Asset icon"/>
                     <div class="card-title">
-                        Geol map and image floor plan view
+                        Geo map and image floor plan view
                     </div>
                     <div class="card-text">
                         With the detailed view, you can switch between a geographic map and a floor plan view to track the movement of your assets not only on the geographic map but also on the floor plan view, giving you the most detailed and accurate information. 
@@ -179,10 +181,10 @@ description: ""
 <section id="free-demo">
     <div class="free-demo-block content-wrapper">
         <div class="text-block">
-            <div class="title">
+            <h2>
                 Free Demo access to Asset Tracking Software
-            </div>
-            <div class="text">
+            </h2>
+            <div class="block-text text-lg">
                 Unique real-time asset tracking software with just one click
             </div>
         </div>
@@ -207,9 +209,9 @@ description: ""
                     </svg>
                     Other features
                 </div>
-                <div class="block-title">
+                <h2>
                     ThingsBoard asset tracking software features
-                </div>
+                </h2>
             </div>
         </div>
         <div class="feature-cards">
@@ -222,7 +224,7 @@ description: ""
                         <div class="title">
                             Data analysis and visualization
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Using data storage, you can always check historical data, make reports even forecasts. The platform  supports flexible customization of the required data visualization.
                         </div>
                     </div>
@@ -235,7 +237,7 @@ description: ""
                         <div class="title">
                             Multi-tenancy
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Support multi-tenant installations out-of-the-box. Single tenant may have multiple tenant administrators and millions of devices and customers.
                         </div>
                     </div>
@@ -250,7 +252,7 @@ description: ""
                         <div class="title">
                             Device management
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Provides ability to register and manage devices. Allows to monitor client-side and provision server-side <a href="/docs/user-guide/attributes/">device attributes</a>. Provides API for server-side applications to send <a href="/docs/user-guide/rpc/">RPC commands</a> to devices and vice-versa.
                         </div>
                     </div>
@@ -263,7 +265,7 @@ description: ""
                         <div class="title">
                             Asset management
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Provides ability to register and manage assets. Allows to provision server-side <a href="/docs/user-guide/attributes/">asset attributes</a> and monitor related <a href="/docs/user-guide/alarms/">alarms</a>. Ability to build hierarchy of entities using <a href="/docs/user-guide/entities-and-relations/">relations</a>.
                         </div>
                     </div>
@@ -276,7 +278,7 @@ description: ""
                         <div class="title">
                             Alarms management
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Provides ability to create and manage alarms related to your entities: devices, assets, customers, etc. Allows real-time alarms monitoring and alarms propagation to related entities hierarchy. Raise alarms on device disconnect or inactivity events.
                         </div>
                     </div>
@@ -289,7 +291,7 @@ description: ""
                         <div class="title">
                             Telemetry data collection
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Collect and store telemetry data in reliable way, surviving network and hardware failures. Access collected data using customizable web dashboards or server-side APIs.
                         </div>
                     </div>
@@ -302,7 +304,7 @@ description: ""
                         <div class="title">
                             Customization and integration
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                             Extend default platform functionality using customizable rule chains, widgets and transport implementations. In addition to MQTT, CoAP and HTTP support, ThingsBoard users can use their own transport implementations or customize behaviour of existing protocols.
                         </div>
                     </div>
@@ -315,7 +317,7 @@ description: ""
                         <div class="title">
                             Horizontal scalability
                         </div>
-                        <div class="text">
+                        <div class="block-text text-sm">
                            Amount of supported server-side requests and devices increase linearly as new thingsboard servers are added in clustering mode. No downtime, server restarts or application errors.
                         </div>
                     </div>
@@ -339,12 +341,12 @@ description: ""
                     </svg>
                     Our features
                 </div>
-                <div class="block-title">
+                <h2 class="inverse">
                     The right tracking solution for your business needs
-                </div>
+                </h2>
             </div>
             <div class="right-side-block inverse">
-                <div class="block-text">
+                <div class="block-text text-md inverse">
                     Asset tracking system is adaptable for different areas. It ensures real-time management and security of assets, optimizing efficiency across various industries.
                 </div>
             </div>
@@ -486,10 +488,10 @@ description: ""
         </div>
         <div class="title-block free-demo">
             <div class="left-side-block inverse">
-                <div class="block-title">
+                <h2 class="inverse">
                     Free Demo access to Asset Tracking Software
-                </div>
-                <div class="block-text">
+                </h2>
+                <div class="block-text text-md inverse">
                     Explore capabilities one of the best IoT Visualization Platform
                 </div>
                 <div>
@@ -519,78 +521,102 @@ description: ""
                 </svg>
                 Roadmap
             </div>
-            <div class="block-title">
+            <h2>
                 Real-time asset tracking software designed to simplify equipment tracking and management
-            </div>
+            </h2>
         </div>
-        <div class="roadmap-blocks">
+        <div class="roadmap-cards">
             <div class="cards-in-row">
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step1" class="step line"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_1.webp"
+                            alt="Step 1"/>
                     </div>
-                    <div class="title">
-                        Registration 
-                    </div>
                     <div>
-                        Create a free account on the ThingsBoard IoT Platform
+                        <div class="title">
+                            Registration 
+                        </div>
+                        <div class="block-text text-sm">
+                            Create a free account on the ThingsBoard IoT Platform
+                        </div>
                     </div>
                 </div>
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step2" class="step line"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_2.webp"
+                            alt="Step 2"/>
                     </div>
-                    <div class="title">
-                        Install Asset Tracking Software 
-                    </div>
                     <div>
-                        Install Asset Tracking Software from ThingsBoard ready to use Solutions Templates
+                        <div class="title">
+                            Install Asset Tracking Software 
+                        </div>
+                        <div class="block-text text-sm">
+                            Install Asset Tracking Software from ThingsBoard ready to use Solutions Templates
+                        </div>
                     </div>
                 </div>
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step3" class="step"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_3.webp"
+                            alt="Step 3"/>
                     </div>
-                    <div class="title">
-                        Devices Provisioning
-                    </div>
                     <div>
-                        Add your devices via ThingsBoard Device Integration and assign them to the Assets
+                        <div class="title">
+                            Devices Provisioning
+                        </div>
+                        <div class="block-text text-sm">
+                            Add your devices via ThingsBoard Device Integration and assign them to the Assets
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="cards-in-row">
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step4" class="step line"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_4.webp"
+                            alt="Step 4"/>
                     </div>
-                    <div class="title">
-                        Location management 
-                    </div>
                     <div>
-                        Create your locations with specific geofence and assign device’s beacons to them.
+                        <div class="title">
+                            Location management 
+                        </div>
+                        <div class="block-text text-sm">
+                            Create your locations with specific geofence and assign device’s beacons to them.
+                        </div>
                     </div>
                 </div>
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step5" class="step line"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_5.webp"
+                            alt="Step 5"/>
                     </div>
-                    <div class="title">
-                        Manage all you assets in one space
-                    </div>
                     <div>
-                        Using data visualization via easy to custom dashboards monitor and manage your assets
+                        <div class="title">
+                            Manage all you assets in one space
+                        </div>
+                        <div class="block-text text-sm">
+                            Using data visualization via easy to custom dashboards monitor and manage your assets
+                        </div>
                     </div>
                 </div>
                 <div class="road-card">
-                    <div>
-                        img
+                    <div class="step_img">
+                        <img id="step6" class="step"
+                            src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_final.webp"
+                            alt="Step final"/>
                     </div>
-                    <div class="title">
-                        Connect your Team or Customers
-                    </div>
                     <div>
-                        Add your devices via ThingsBoard Device Integration and assign them to the Assets
+                        <div class="title">
+                            Connect your Team or Customers
+                        </div>
+                        <div class="block-text text-sm">
+                            Add your devices via ThingsBoard Device Integration and assign them to the Assets
+                        </div>
                     </div>
                 </div>
             </div>
@@ -622,10 +648,10 @@ description: ""
                 </svg>
                 Connectivity
             </div>
-            <div class="block-title">
+            <h2>
                 ThingsBoard platform device supports
-            </div>
-            <div class="block-text">
+            </h2>
+            <div class="block-text text-md">
                     ThingsBoard supports a variety of direct communication <a href="/docs/pe/api/" class="link-to-doc">protocols</a> for interaction between devices and the IoT platform — MQTT, CoAP, HTTP, LWM2M, OPC-UA, Modbus, etc. Those protocols are already industry standards. However, we do support other options — SNMP, Kafka, TCP/UDP.
                     <br/><br/>
                     We also <a href="/docs/user-guide/integrations/" class="link-to-doc">accept</a> devices from external connectivity IoT device management companies like LoRaWAN, Sigfox, NB-IoT, AWS IoT, Azure IoT, Actility ThingPark, TheThingsStack, OceanConnect, etc.
@@ -636,9 +662,9 @@ description: ""
 
 <section id="partners">
     <div class="partners-block content-wrapper">
-        <div class="block-title">
+        <h2>
             Our hardware partners
-        </div>
+        </h2>
         <div class="partners-logo">
             <div class="logo">
                 <img src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Partnrs_1.webp"
@@ -682,9 +708,9 @@ description: ""
 
 <section id="resources">
     <div class="resources-block content-wrapper">
-        <div class="block-title">
+        <h2>
             Resources for Asset Tracking Software
-        </div>
+        </h2>
         <div class="resources-cards">
             <div class="card">
                 <div class="card-image"
@@ -744,10 +770,10 @@ description: ""
 <section id="ready-to-start">
     <div class="ready-to-start-block content-wrapper">
         <div class="text-block">
-            <div class="title">
+            <h2 class="inverse">
                 Ready to get started?
-            </div>
-            <div class="text">
+            </h2>
+            <div class="block-text text-lg inverse">
                 Unique real-time asset tracking software with just one click
             </div>
         </div>

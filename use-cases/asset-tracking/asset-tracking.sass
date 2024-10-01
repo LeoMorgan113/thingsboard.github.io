@@ -7,6 +7,10 @@ $step4: 1279px
 $step5: 1439px
 $step6: 1919px
 $verticalStep1: 450px
+$titleColor: #0F2742
+$textColor: #485463
+$titleColorInverse: #F2F8FD
+$textColorInverse: #CFD4D9
 
 #asset-tracking
     font-family: Poppins, serif
@@ -99,18 +103,47 @@ $verticalStep1: 450px
             svg path
                 fill: #2E9DF2
 
-
-    .block-title
-        color: #0F2742
-        font-size: 65px
+    h1
+        color: $titleColor
         font-weight: 500
+        font-size: 90px
+        line-height: 100px
+
+    h2
+        display: block
+        color: $titleColor
+        font-weight: 500
+        font-size: 65px
         line-height: 72px
+        &.inverse
+            color: $titleColorInverse
+
+    h3
+        color: $titleColor
+        font-weight: 500
+        font-size: 28px
+        line-height: 34px
+        &.inverse
+            color: $titleColorInverse
+
 
     .block-text
-        color: #485463
-        font-size: 20px
+        color: $textColor
         font-weight: 400
-        line-height: 33px
+        &.inverse
+            color: $textColorInverse
+
+        &.text-lg
+            font-size: 24px
+            line-height: 36px
+
+        &.text-md
+            font-size: 20px
+            line-height: 33px
+
+        &.text-sm
+            font-size: 16px
+            line-height: 25px
 
     .left-side-block
         display: flex
@@ -119,10 +152,10 @@ $verticalStep1: 450px
 
         &.inverse
             .block-title
-                color: #F2F8FD
+                color: $titleColorInverse
 
             .block-text
-                color: #CFD4D9
+                color: $textColorInverse
 
     .right-side-block
         display: flex
@@ -131,10 +164,10 @@ $verticalStep1: 450px
 
         &.inverse
             .block-title
-                color: #F2F8FD
+                color: $titleColorInverse
 
             .block-text
-                color: #CFD4D9
+                color: $textColorInverse
 
     .representation-img
         max-width: 745px
@@ -175,16 +208,12 @@ $verticalStep1: 450px
                 z-index: 1
                 padding-top: 60px
 
-                .asset-tr-title
-                    color: #0F2742
+                h1
                     text-align: center
-                    font-size: 90px
-                    font-weight: 500
-                    line-height: 100px
                     margin-bottom: 30px
 
                 .asset-tr-sub-title
-                    color: #0F2742
+                    color: $titleColor
                     text-align: center
                     font-size: 20px
                     font-weight: 400
@@ -301,13 +330,14 @@ $verticalStep1: 450px
                             width: 40px
 
                         .card-title
-                            color: #0F2742
+                            color: $titleColor
                             font-size: 28px
                             font-weight: 500
                             line-height: 34px
 
+                        //todo
                         .card-text
-                            color: #485463
+                            color: $textColor
                             font-size: 16px
                             font-weight: 400
                             line-height: 25px
@@ -323,7 +353,7 @@ $verticalStep1: 450px
         border-radius: 80px
         margin-bottom: 60px
         .free-demo-block, .ready-to-start-block
-            color: #F2F8FD
+            color: $titleColorInverse
             display: flex
             flex-direction: row
             justify-content: center
@@ -334,12 +364,12 @@ $verticalStep1: 450px
                 gap: 30px
                 max-width: 480px
                 .title
-                    color: #F2F8FD
+                    color: $titleColorInverse
                     font-size: 65px
                     font-weight: 600
                     line-height: 72px
                 .text
-                    color: #F2F8FD
+                    color: $titleColorInverse
                     font-size: 24px
                     font-weight: 400
                     line-height: 36px
@@ -353,13 +383,13 @@ $verticalStep1: 450px
         background: url("/images/asset-tracking/asset-tracking-landing-background/bg_2.webp") no-repeat center / contain
         margin-bottom: 100px
         .free-demo-block
-            color: #0F2742
+            color: $titleColor
             .text-block
                 max-width: 820px
                 .title
-                    color: #0F2742
+                    color: $titleColor
                 .text
-                    color: #0F2742
+                    color: $titleColor
 
     #other-features
         display: flex
@@ -402,12 +432,14 @@ $verticalStep1: 450px
                         flex-direction: column
                         gap: 12px
                         .title
-                            color: #0F2742
+                            color: $titleColor
                             font-size: 28px
                             font-weight: 500
                             line-height: 34px
+
+                        //todo
                         .text
-                            color: #485463
+                            color: $textColor
                             font-size: 16px
                             font-weight: 400
                             line-height: 25px
@@ -426,7 +458,7 @@ $verticalStep1: 450px
         min-height: 1450px
         height: 100%
         width: 100%
-        background: url("/images/asset-tracking/asset-tracking-landing-background/bg_3.webp") no-repeat center / contain
+        background: url("/images/asset-tracking/asset-tracking-landing-background/bg_4.webp") no-repeat bottom/contain, url("/images/asset-tracking/asset-tracking-landing-background/bg_3.webp") no-repeat bottom/contain
         overflow: hidden
         border-radius: 80px
         margin-bottom: 120px
@@ -485,13 +517,14 @@ $verticalStep1: 450px
                             width: 158px
                             height: 158px
                     .solution-header
-                        color: #F2F8FD
+                        color: $titleColorInverse
                         font-size: 28px
                         font-weight: 500
                         line-height: 34px
                         padding: 0 20px
+                        //todo
                     .solution-body
-                        color: #CFD4D9
+                        color: $textColorInverse
                         font-size: 16px
                         font-weight: 400
                         line-height: 25px
@@ -502,9 +535,10 @@ $verticalStep1: 450px
                 flex-direction: row
                 align-items: center
                 gap: 48px
+                margin-bottom: 83px
 
                 .solution-text
-                    color: #F2F8FD
+                    color: $titleColorInverse
                     font-size: 65px
                     font-weight: 500
                     line-height: 76px
@@ -520,12 +554,68 @@ $verticalStep1: 450px
                     width: 406px
 
             .free-demo
-                background: url("/images/asset-tracking/asset-tracking-landing-background/bg_4.webp") no-repeat center / contain
                 .left-side-block
                     justify-content: center
                 .right-side-block
                     .feature-background
                         max-width: 745px
+
+
+    #roadmap
+        display: flex
+        justify-content: center
+        width: 100%
+        margin-bottom: 150px
+        .title-block
+            margin-bottom: 100px
+        .roadmap-cards
+            display: flex
+            flex-direction: column
+            margin-bottom: 80px
+            gap: 90px
+            .cards-in-row
+                display: flex
+                flex-direction: row
+                gap: 20px
+                .road-card
+                    width: 460px
+                    min-height: 280px
+                    display: flex
+                    flex-direction: column
+                    padding: 32px
+                    justify-content: space-between
+                    border-radius: 20px
+                    background: #F7FBFF
+                    box-shadow: 0 204px 57px 0 rgba(149, 151, 151, 0.00), 0 131px 52px 0 rgba(149, 151, 151, 0.01), 0 74px 44px 0 rgba(149, 151, 151, 0.05), 0 33px 33px 0 rgba(149, 151, 151, 0.09), 0 8px 18px 0 rgba(149, 151, 151, 0.10)
+                    .step_img
+                        text-align: center
+                        margin-top: -76px
+                        .step
+                            height: 91px
+                        .line::before,
+                        .line::after
+                            border-top-width: 2px
+                            border-top-style: solid
+                            content: ""
+                            display: inline-block
+                            height: 0
+                            position: absolute
+                            width: calc(50% - 20px)
+                            color: #0362A1
+                            margin-top: 46px
+                            z-index: 0
+
+                    .title
+                        color: $titleColor
+                        font-size: 28px
+                        font-weight: 500
+                        line-height: 34px
+                    .text
+                        color: $textColor
+                        font-size: 16px
+                        font-weight: 400
+                        line-height: 25px
+
 
     #connectivity
         display: flex
@@ -602,13 +692,13 @@ $verticalStep1: 450px
                         gap: 12px
 
                         .description-title
-                            color: #0F2742
+                            color: $titleColor
                             font-size: 28px
                             font-weight: 500
                             line-height: 34px
 
                         .description-text
-                            color: #485463
+                            color: $textColor
                             font-size: 16px
                             font-weight: 400
                             line-height: 25px
