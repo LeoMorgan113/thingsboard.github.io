@@ -47,7 +47,7 @@ description: ""
 
 <section id="what-is-that">
     <div class="what-is-that-block content-wrapper">
-        <div class="left-side-block">
+        <div class="left-side-block label-text-block">
             <div class="label-tag">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                     <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
@@ -73,17 +73,17 @@ description: ""
 
 <section id="features">
     <div class="features-block content-wrapper">
-        <div class="left-side-block">
+        <div class="left-side-block label-text-block">
                 <div class="label-tag">
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                         <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
                     </svg>
                     Key features
                 </div>
-                <h3>
+                <h2>
                     Real-time asset tracking software designed to simplify equipment tracking and management
-                </h3>
-                <div class="block-text">
+                </h2>
+                <div class="block-text text-md">
                     A solution that can be quickly adapted to your needs, whether you are a small business or a large corporation, ThingsBoard asset tracking  allow you to always have all the information you need about your assets in real time
                 </div>
         </div>
@@ -110,11 +110,13 @@ description: ""
                     <img id="place-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Real-time_monitoring_and_location_tracking.webp"
                         alt="Place icon"/>
-                    <div class="card-title">
-                        Real-time monitoring and location tracking
-                    </div>
-                    <div class="card-text">
-                        Get the most accurate real-time information about the movements of your assets in a specific zone/location with current status and general overview
+                    <div class="card-title-text-block">
+                        <h3>
+                            Real-time monitoring and location tracking
+                        </h3>
+                        <div class="block-text text-sm">
+                            Get the most accurate real-time information about the movements of your assets in a specific zone/location with current status and general overview
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,11 +130,13 @@ description: ""
                     <img id="asset-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Geo_map_and_image_floor_plan_view.webp"
                         alt="Asset icon"/>
-                    <div class="card-title">
-                        Geo map and image floor plan view
-                    </div>
-                    <div class="card-text">
-                        With the detailed view, you can switch between a geographic map and a floor plan view to track the movement of your assets not only on the geographic map but also on the floor plan view, giving you the most detailed and accurate information. 
+                    <div class="card-title-text-block">
+                        <h3>
+                            Geo map and image floor plan view
+                        </h3>
+                        <div class="block-text text-sm">
+                            With the detailed view, you can switch between a geographic map and a floor plan view to track the movement of your assets not only on the geographic map but also on the floor plan view, giving you the most detailed and accurate information. 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,11 +152,13 @@ description: ""
                     <img id="stack-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Geofence_and_location%20_management.webp"
                         alt="Stack icon"/>
-                    <div class="card-title">
-                        Asset Management 
-                    </div>
-                    <div class="card-text">
-                        Create, customize, and store your assets in one place with easy access to control
+                    <div class="card-title-text-block">
+                        <h3>
+                            Asset Management 
+                        </h3>
+                        <div class="block-text text-sm">
+                            Create, customize, and store your assets in one place with easy access to control
+                        </div>
                     </div>
                 </div>
             </div>
@@ -166,11 +172,13 @@ description: ""
                     <img id="wrench-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Detailed_view_of_assets.webp"
                         alt="Wrench icon"/>
-                    <div class="card-title">
-                        Detailed view of assets
-                    </div>
-                    <div class="card-text">
-                        Have the most up-to-date information about your asset, its condition and location
+                    <div class="card-title-text-block">
+                        <h3>
+                            Detailed view of assets
+                        </h3>
+                        <div class="block-text text-sm">
+                            Have the most up-to-date information about your asset, its condition and location
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,7 +188,7 @@ description: ""
 
 <section id="free-demo">
     <div class="free-demo-block content-wrapper">
-        <div class="text-block">
+        <div class="text-block label-text-block">
             <h2>
                 Free Demo access to Asset Tracking Software
             </h2>
@@ -202,7 +210,7 @@ description: ""
 <section id="other-features">
     <div class="other-features-block content-wrapper">
         <div class="title-block">
-            <div class="left-side-block">
+            <div class="left-side-block label-text-block">
                 <div class="label-tag">
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                         <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
@@ -220,10 +228,10 @@ description: ""
                     <img id="bar-chart-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Data_analysis_and_visualization.webp"
                         alt="Bar chart"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Data analysis and visualization
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Using data storage, you can always check historical data, make reports even forecasts. The platform  supports flexible customization of the required data visualization.
                         </div>
@@ -233,10 +241,10 @@ description: ""
                     <img id="stack-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Multi-tenancy.webp"
                         alt="Stack icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Multi-tenancy
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Support multi-tenant installations out-of-the-box. Single tenant may have multiple tenant administrators and millions of devices and customers.
                         </div>
@@ -248,10 +256,10 @@ description: ""
                     <img id="cpu-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Device_management.webp"
                         alt="CPU icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Device management
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Provides ability to register and manage devices. Allows to monitor client-side and provision server-side <a href="/docs/user-guide/attributes/">device attributes</a>. Provides API for server-side applications to send <a href="/docs/user-guide/rpc/">RPC commands</a> to devices and vice-versa.
                         </div>
@@ -261,10 +269,10 @@ description: ""
                     <img id="wrench-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Asset_management.webp"
                         alt="Wrench icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Asset management
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Provides ability to register and manage assets. Allows to provision server-side <a href="/docs/user-guide/attributes/">asset attributes</a> and monitor related <a href="/docs/user-guide/alarms/">alarms</a>. Ability to build hierarchy of entities using <a href="/docs/user-guide/entities-and-relations/">relations</a>.
                         </div>
@@ -274,10 +282,10 @@ description: ""
                     <img id="warning-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Alarms_management.webp"
                         alt="Warning icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Alarms management
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Provides ability to create and manage alarms related to your entities: devices, assets, customers, etc. Allows real-time alarms monitoring and alarms propagation to related entities hierarchy. Raise alarms on device disconnect or inactivity events.
                         </div>
@@ -287,10 +295,10 @@ description: ""
                     <img id="chart-line-up" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Telemetry_data_collection.webp"
                         alt="Chart line up icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Telemetry data collection
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Collect and store telemetry data in reliable way, surviving network and hardware failures. Access collected data using customizable web dashboards or server-side APIs.
                         </div>
@@ -300,10 +308,10 @@ description: ""
                     <img id="gear-six" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Customization_and_integration.webp"
                         alt="Gear six icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Customization and integration
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Extend default platform functionality using customizable rule chains, widgets and transport implementations. In addition to MQTT, CoAP and HTTP support, ThingsBoard users can use their own transport implementations or customize behaviour of existing protocols.
                         </div>
@@ -313,10 +321,10 @@ description: ""
                     <img id="arrows-out-line-vertical" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Horizontal_scalability.webp"
                         alt="Arrows out line vertical icon"/>
-                    <div class="title-block">
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Horizontal scalability
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                            Amount of supported server-side requests and devices increase linearly as new thingsboard servers are added in clustering mode. No downtime, server restarts or application errors.
                         </div>
@@ -334,7 +342,7 @@ description: ""
 <section id="our-features">
     <div class="our-features-block content-wrapper">
         <div class="title-block">
-            <div class="left-side-block inverse">
+            <div class="left-side-block label-text-block inverse">
                 <div class="label-tag inverse">
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                         <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
@@ -369,108 +377,132 @@ description: ""
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Healthcare.webp" alt="slider handheart"/>
                     </div>
-                    <div class="solution-header">Healthcare</div>
-                    <div class="solution-body">
-                        Asset tracking ensures that critical medical equipment such as ventilators, infusion pumps, and wheelchairs are always available when needed.   
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Healthcare</h3>
+                        <div class="block-text inverse text-sm">
+                            Asset tracking ensures that critical medical equipment such as ventilators, infusion pumps, and wheelchairs are always available when needed.   
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Government.webp" alt="slider briefcase"/>
                     </div>
-                    <div class="solution-header">Government</div>
-                    <div class="solution-body">
-                        Government agencies use an asset tracking system to manage public assets such as vehicles, equipment, and infrastructure.  
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Government</h3>
+                        <div class="block-text inverse text-sm">
+                            Government agencies use an asset tracking system to manage public assets such as vehicles, equipment, and infrastructure.  
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Industrial.webp" alt="slider factory"/>
                     </div>
-                    <div class="solution-header">Industrial</div>
-                    <div class="solution-body">
-                        Fleet asset tracking relies on GPS to monitor vehicle locations, optimize routes, and ensure timely maintenance. 
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Industrial</h3>
+                        <div class="block-text inverse text-sm">
+                            Fleet asset tracking relies on GPS to monitor vehicle locations, optimize routes, and ensure timely maintenance. 
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Marines.webp" alt="slider anchor"/>
                     </div>
-                    <div class="solution-header">Marines</div>
-                    <div class="solution-body">
-                        The maritime industry uses an asset tracking system to monitor vessels, cargo, and equipment.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Marines</h3>
+                        <div class="block-text inverse text-sm">
+                            The maritime industry uses an asset tracking system to monitor vessels, cargo, and equipment.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Education.webp" alt="slider student"/>
                     </div>
-                    <div class="solution-header">Education</div>
-                    <div class="solution-body">
-                        Schools and universities use education asset tracking solutions to manage IT equipment, lab instruments, and other educational resources.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Education</h3>
+                        <div class="block-text inverse text-sm">
+                            Schools and universities use education asset tracking solutions to manage IT equipment, lab instruments, and other educational resources.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Construction.webp" alt="slider craneTower"/>
                     </div>
-                    <div class="solution-header">Construction</div>
-                    <div class="solution-body">
-                        Construction asset tracking systems monitor heavy equipment, tools, and materials.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Construction</h3>
+                        <div class="block-text inverse text-sm">
+                            Construction asset tracking systems monitor heavy equipment, tools, and materials.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Warehouse_and_inventory.webp" alt="slider warehouse"/>
                     </div>
-                    <div class="solution-header">Warehouse and inventory</div>
-                    <div class="solution-body">
-                        Warehouses use   asset tracking solutions to manage inventory levels and track the movement of goods.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Warehouse and inventory</h3>
+                        <div class="block-text inverse text-sm">
+                            Warehouses use asset tracking solutions to manage inventory levels and track the movement of goods.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Hotels.webp" alt="slider building"/>
                     </div>
-                    <div class="solution-header">Hotels</div>
-                    <div class="solution-body">
-                        Hotels use asset tracking to manage valuable items such as linens, cleaning supplies, and guest amenities.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Hotels</h3>
+                        <div class="block-text inverse text-sm">
+                            Hotels use asset tracking to manage valuable items such as linens, cleaning supplies, and guest amenities.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Solar_energy.webp" alt="slider solarPanel"/>
                     </div>
-                    <div class="solution-header">Solar energy</div>
-                    <div class="solution-body">
-                        Solar energy companies track equipment and maintenance schedules to ensure the optimal performance of solar panels and related infrastructure.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Solar energy</h3>
+                        <div class="block-text inverse text-sm">
+                            Solar energy companies track equipment and maintenance schedules to ensure the optimal performance of solar panels and related infrastructure.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Cold_chain.webp" alt="slider thermometerCold"/>
                     </div>
-                    <div class="solution-header">Cold chain</div>
-                    <div class="solution-body">
-                        Asset tracking in the cold chain industry ensures optimal storage and transportation conditions for temperature-sensitive products such as pharmaceuticals and perishable food.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Cold chain</h3>
+                        <div class="block-text inverse text-sm">
+                            Asset tracking in the cold chain industry ensures optimal storage and transportation conditions for temperature-sensitive products such as pharmaceuticals and perishable food.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Airports.webp" alt="slider airplaneTilt"/>
                     </div>
-                    <div class="solution-header">Airports</div>
-                    <div class="solution-body">
-                        Airports use asset tracking to manage ground support equipment, baggage, and cargo.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Airports</h3>
+                        <div class="block-text inverse text-sm">
+                            Airports use asset tracking to manage ground support equipment, baggage, and cargo.
+                        </div>
                     </div>
                 </div>
                 <div class="solution-card">
                     <div class="logo">
                         <img src="/images/asset-tracking/asset-tracking-landing-icons/Farming.webp" alt="slider cow"/>
                     </div>
-                    <div class="solution-header">Farming</div>
-                    <div class="solution-body">
-                        Farmers use asset tracking to monitor equipment, livestock, and crops.
+                    <div class="card-title-text-block">
+                        <h3 class="inverse">Farming</h3>
+                        <div class="block-text inverse text-sm">
+                            Farmers use asset tracking to monitor equipment, livestock, and crops.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -514,7 +546,7 @@ description: ""
 
 <section id="roadmap">
     <div class="roadmap-block content-wrapper">
-        <div class="title-block">
+        <div class="label-text-block">
             <div class="label-tag">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                     <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
@@ -533,10 +565,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_1.webp"
                             alt="Step 1"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Registration 
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Create a free account on the ThingsBoard IoT Platform
                         </div>
@@ -548,10 +580,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_2.webp"
                             alt="Step 2"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Install Asset Tracking Software 
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Install Asset Tracking Software from ThingsBoard ready to use Solutions Templates
                         </div>
@@ -563,10 +595,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_3.webp"
                             alt="Step 3"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Devices Provisioning
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Add your devices via ThingsBoard Device Integration and assign them to the Assets
                         </div>
@@ -580,10 +612,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_4.webp"
                             alt="Step 4"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Location management 
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Create your locations with specific geofence and assign device’s beacons to them.
                         </div>
@@ -595,10 +627,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_5.webp"
                             alt="Step 5"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Manage all you assets in one space
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Using data visualization via easy to custom dashboards monitor and manage your assets
                         </div>
@@ -610,10 +642,10 @@ description: ""
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_final.webp"
                             alt="Step final"/>
                     </div>
-                    <div>
-                        <div class="title">
+                    <div class="card-title-text-block">
+                        <h3>
                             Connect your Team or Customers
-                        </div>
+                        </h3>
                         <div class="block-text text-sm">
                             Add your devices via ThingsBoard Device Integration and assign them to the Assets
                         </div>
@@ -641,7 +673,7 @@ description: ""
                 src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Connectivity.webp"
                 alt="Connectivity dialog"/>
         </div>
-        <div class="right-side-block">
+        <div class="right-side-block label-text-block">
             <div class="label-tag">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                     <path d="M5.56215 1.03451C5.88431 0.163889 7.11569 0.163888 7.43785 1.03451L8.36611 3.54308C8.46739 3.8168 8.6832 4.03261 8.95692 4.13389L11.4655 5.06215C12.3361 5.38431 12.3361 6.61569 11.4655 6.93785L8.95692 7.86611C8.6832 7.96739 8.46739 8.1832 8.36611 8.45692L7.43785 10.9655C7.11569 11.8361 5.88431 11.8361 5.56215 10.9655L4.63389 8.45692C4.53261 8.1832 4.3168 7.96739 4.04308 7.86611L1.53451 6.93785C0.663889 6.61569 0.663888 5.38431 1.53451 5.06215L4.04308 4.13389C4.3168 4.03261 4.53261 3.8168 4.63389 3.54308L5.56215 1.03451Z" fill="#0362A1"/>
@@ -716,11 +748,11 @@ description: ""
                 <div class="card-image"
                     style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_1.webp') no-repeat top / contain">
                 </div>
-                <div class="card-description">
-                    <div class="description-title">
+                <div class="card-title-text-block">
+                    <h3>
                         Asset Management System: Processes and Uses Explained
-                    </div>
-                    <div class="description-text">
+                    </h3>
+                    <div class="block-text text-sm">
                         Imagine handling thousands of assets every day without a reliable tracking system.
                     </div>
                 </div>
@@ -733,11 +765,11 @@ description: ""
                 <div class="card-image"
                     style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_2.webp') no-repeat top / contain">
                 </div>
-                <div class="card-description">
-                    <div class="description-title">
+                <div class="card-title-text-block">
+                    <h3>
                         Docs Health Implements Powerful Inventory Control
-                    </div>
-                    <div class="description-text">
+                    </h3>
+                    <div class="block-text text-sm">
                         Established in 1990, DOCS Health is recognized as a trusted, reliable leader in providing specialized access to healthcare.
                     </div>
                 </div>
@@ -750,11 +782,11 @@ description: ""
                 <div class="card-image"
                     style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_3.webp') no-repeat top / contain">
                 </div>
-                <div class="card-description">
-                    <div class="description-title">
+                <div class="card-title-text-block">
+                    <h3>
                         Best Practices for Asset Management
-                    </div>
-                    <div class="description-text">
+                    </h3>
+                    <div class="block-text text-sm">
                         Trillions of dollars worth of capital are tied up in business assets and inventory.
                     </div>
                 </div>
