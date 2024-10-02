@@ -528,8 +528,8 @@ description: ""
         <div class="roadmap-cards">
             <div class="cards-in-row">
                 <div class="road-card">
-                    <div class="step_img">
-                        <img id="step1" class="step line"
+                    <div class="step_img line">
+                        <img id="step1" class="step"
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_1.webp"
                             alt="Step 1"/>
                     </div>
@@ -543,8 +543,8 @@ description: ""
                     </div>
                 </div>
                 <div class="road-card">
-                    <div class="step_img">
-                        <img id="step2" class="step line"
+                    <div class="step_img line">
+                        <img id="step2" class="step"
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_2.webp"
                             alt="Step 2"/>
                     </div>
@@ -575,8 +575,8 @@ description: ""
             </div>
             <div class="cards-in-row">
                 <div class="road-card">
-                    <div class="step_img">
-                        <img id="step4" class="step line"
+                    <div class="step_img line">
+                        <img id="step4" class="step"
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_4.webp"
                             alt="Step 4"/>
                     </div>
@@ -590,8 +590,8 @@ description: ""
                     </div>
                 </div>
                 <div class="road-card">
-                    <div class="step_img">
-                        <img id="step5" class="step line"
+                    <div class="step_img line">
+                        <img id="step5" class="step"
                             src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Step_5.webp"
                             alt="Step 5"/>
                     </div>
