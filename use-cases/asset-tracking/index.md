@@ -359,7 +359,7 @@ description: ""
                 </div>
             </div>
         </div>
-        <div id="carousel-wrapper">
+        <div id="carousel-wrapper" class="content-wrapper">
             <div class="nav_buttons">
                 <button id="am-prev" class="slider-nav-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -508,10 +508,10 @@ description: ""
             </div>
         </div>
         <div class="out-of-box-solution">
-            <div class="solution-text">
+            <h2 class="solution-text inverse">
                 <span class="blue">ThingsBoard</span> Asset Tracking Software is a ready-made out-of-the-box solution that can be used 
                 immediately and will cover <span class="yellow-green">90%</span> of your business needs
-            </div>
+            </h2>
             <div class="solution-image">
                 <img id="chart-line-up" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-shapes&photos/ChartLineUp.webp"
@@ -526,7 +526,7 @@ description: ""
                 <div class="block-text text-md inverse">
                     Explore capabilities one of the best IoT Visualization Platform
                 </div>
-                <div>
+                <div class="action-get-access">
                     <a id="Menu_TryItNow" 
                         href="/installations/" 
                         class="n-button try-demo inverse gtm_button">GET ACCESS</a>
@@ -534,7 +534,7 @@ description: ""
             </div>
             <div class="right-side-block">
                 <img id="feature-background"
-                    class="feature-background"
+                    class="representation-img"
                     srcset="/images/asset-tracking/asset-tracking-landing-shapes&photos/Free_Demo_access_to_Asset_Tracking_Software.webp 1127w"
                     sizes="(max-width: 671px) 360px, (max-width: 999px) 560px, (min-width: 1000px)  1127px, 2254px"
                     src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Free_Demo_access_to_Asset_Tracking_Software.webp"
@@ -554,7 +554,7 @@ description: ""
                 Roadmap
             </div>
             <h2>
-                Real-time asset tracking software designed to simplify equipment tracking and management
+                Easy and quick start to using Asset Tracking Software right now or discover all the possibilities with our team of experts
             </h2>
         </div>
         <div class="roadmap-cards">
@@ -681,7 +681,7 @@ description: ""
                 Connectivity
             </div>
             <h2>
-                ThingsBoard platform device supports
+                Agnostic device integration
             </h2>
             <div class="block-text text-md">
                     ThingsBoard supports a variety of direct communication <a href="/docs/pe/api/" class="link-to-doc">protocols</a> for interaction between devices and the IoT platform — MQTT, CoAP, HTTP, LWM2M, OPC-UA, Modbus, etc. Those protocols are already industry standards. However, we do support other options — SNMP, Kafka, TCP/UDP.
@@ -848,12 +848,13 @@ description: ""
                         dots: false,
                         responsive:{
                             0:{
-                                items:1
+                                items:1,
+                                autoWidth: true
                             },
-                            600:{
+                            11150:{
                                 items:2
                             },
-                            1000:{
+                            1439:{
                                 items:3
                             }
                         }

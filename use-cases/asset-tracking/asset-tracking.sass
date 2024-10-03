@@ -149,6 +149,7 @@ $textColorInverse: #CFD4D9
         display: flex
         flex-direction: column
         gap: 30px
+        flex-basis: 50%
 
         &.inverse
             .block-title
@@ -161,6 +162,7 @@ $textColorInverse: #CFD4D9
         display: flex
         flex-direction: column
         gap: 30px
+        flex-basis: 50%
 
         &.inverse
             .block-title
@@ -184,6 +186,7 @@ $textColorInverse: #CFD4D9
         border-radius: 40px
         background: #E0F2FE
         box-shadow: 0 185px 52px 0 rgba(167, 200, 236, 0.00), 0 118px 47px 0 rgba(167, 200, 236, 0.01), 0 67px 40px 0 rgba(167, 200, 236, 0.05), 0 30px 30px 0 rgba(167, 200, 236, 0.09), 0 7px 16px 0 rgba(167, 200, 236, 0.10)
+        width: 100%
 
     .link-to-doc
         text-decoration: none
@@ -195,10 +198,23 @@ $textColorInverse: #CFD4D9
         height: 100vh
         min-height: 1000px
         width: 100%
-        background: url("/images/asset-tracking/asset-tracking-landing-background/bg_1.webp") no-repeat center / contain
         overflow: hidden
         border-radius: 80px
         margin-bottom: 120px
+        background-color: #E0F2FE
+
+        &::after
+            content: ""
+            display: block
+            width: 1672px
+            height: 374px
+            border-radius: 220px
+            text-align: center
+            background: rgba(79, 123, 255, 0.2)
+            position: absolute
+            bottom: -456px
+            box-shadow: 0 0 45px 240px rgba(79, 123, 255, 0.2)
+
 
         .hero-container
             height: 100%
@@ -228,7 +244,7 @@ $textColorInverse: #CFD4D9
                     font-size: 20px
                     font-weight: 400
                     line-height: 33px
-                    width: 40%
+                    width: 45%
                     margin-bottom: 50px
 
                 .hero-buttons
@@ -329,6 +345,7 @@ $textColorInverse: #CFD4D9
                     .card-description
                         display: flex
                         flex-direction: column
+                        justify-content: space-between
                         gap: 15px
                         border-radius: 20px
                         background: #F0F8FF
@@ -432,7 +449,7 @@ $textColorInverse: #CFD4D9
         overflow: hidden
         border-radius: 80px
         margin-bottom: 120px
-        padding: 100px 0 0
+        padding: 100px 20px 0
 
         &::before
             content: ""
@@ -521,11 +538,6 @@ $textColorInverse: #CFD4D9
                 margin-bottom: 206px
 
                 .solution-text
-                    color: $titleColorInverse
-                    font-size: 65px
-                    font-weight: 500
-                    line-height: 76px
-
                     .blue
                         color: #2E9DF2
 
@@ -540,6 +552,11 @@ $textColorInverse: #CFD4D9
                 margin-bottom: 125px
                 .left-side-block
                     justify-content: center
+
+                    .action-get-access
+                        display: flex
+                        align-items: center
+                        height: 50px
                 .right-side-block
                     padding-top: 0
                     .feature-background
@@ -683,3 +700,89 @@ $textColorInverse: #CFD4D9
         .noToc
             .content-wrapper
                 max-width: 1280px
+
+        .representation-img
+            width: 100%
+
+        #what-is-that, #connectivity
+            .right-side-block, .left-side-block
+                flex-basis: 50%
+
+        #features-cards
+            .features-cards-block
+                .two-cards-in-row
+                    .card .card-description
+                        max-height: 300px
+                        height: 300px
+
+        #features
+            .left-side-block
+                max-width: unset
+
+        #our-features
+            background-size: 100% 635px, 40% 30%
+            .our-features-block
+                .free-demo
+                    margin-bottom: 100px
+
+        #roadmap
+            .roadmap-cards
+                .cards-in-row
+                    .road-card
+                        width: 400px
+                        .step_img
+                            &.line:after
+                                width: calc(349px - 20px)
+
+    @media screen and (max-width: $step4)
+        .noToc
+            .content-wrapper
+                max-width: unset
+                padding: 0 56px
+
+        h1
+            font-size: 70px
+            line-height: 85px
+
+        h2
+            font-size: 50px
+            line-height: 60px
+
+        h3
+            font-size: 28px
+            line-height: 34px
+
+        #our-features
+            background-size: 100% 535px, 40% 30%
+
+        #roadmap
+            .roadmap-cards
+                .cards-in-row
+                    .road-card
+                        width: 300px
+                        .step_img
+                            &.line:after
+                                width: calc(249px - 20px)
+
+    @media screen and (max-width: $step3)
+
+        #our-features
+            background-size: 100% 835px, 40% 30%
+
+            .solution-image
+                display: none
+
+        #our-features
+            .our-features-block
+                .free-demo
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    .left-side-block
+                        text-align: center
+
+        #resources
+            .resources-block
+                .resources-cards
+                    .card
+                        max-width: 378px
