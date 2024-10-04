@@ -556,6 +556,7 @@ $textColorInverse: #CFD4D9
                     .action-get-access
                         display: flex
                         align-items: center
+                        justify-content: center
                         height: 50px
                 .right-side-block
                     padding-top: 0
@@ -703,6 +704,7 @@ $textColorInverse: #CFD4D9
 
         .representation-img
             width: 100%
+            max-width: 600px
 
         #what-is-that, #connectivity
             .right-side-block, .left-side-block
@@ -711,9 +713,9 @@ $textColorInverse: #CFD4D9
         #features-cards
             .features-cards-block
                 .two-cards-in-row
-                    .card .card-description
+                    .card .card-description.equal-height
                         max-height: 300px
-                        height: 300px
+                        height: 270px
 
         #features
             .left-side-block
@@ -752,8 +754,30 @@ $textColorInverse: #CFD4D9
             font-size: 28px
             line-height: 34px
 
+        #features-cards
+            .features-cards-block
+                .two-cards-in-row
+                    .card .card-description.equal-height
+                        max-height: 370px
+                        height: 370px
+
         #our-features
             background-size: 100% 535px, 40% 30%
+
+        #other-features
+            .other-features-block
+                .feature-cards
+                    .two-cards-in-row
+                        padding: 0
+                        justify-content: space-between
+                        gap: unset
+                    .cards-in-row
+                        gap: 1em
+                        width: 100%
+                        justify-content: space-between
+                    .card
+                        &.equal, &.small
+                            flex: 0 1 calc(50% - 1em)
 
         #roadmap
             .roadmap-cards
@@ -764,11 +788,28 @@ $textColorInverse: #CFD4D9
                             &.line:after
                                 width: calc(249px - 20px)
 
+        #resources
+            .resources-block
+                .resources-cards
+                    .card
+                        max-width: unset
+                        flex: 0 1 calc(50% - 1em)
+
     @media screen and (max-width: $step3)
+        h3
+            font-size: 24px
+            line-height: 28px
+
+        #what-is-that
+            .what-is-that-block
+                flex-direction: column
+
+        #connectivity
+            .connectivity-block
+                flex-direction: column-reverse
 
         #our-features
-            background-size: 100% 835px, 40% 30%
-
+            background-size: 100% 835px, 40% 550px
             .solution-image
                 display: none
 
@@ -781,8 +822,37 @@ $textColorInverse: #CFD4D9
                     .left-side-block
                         text-align: center
 
+        #roadmap
+            .roadmap-cards
+                gap: 63px
+                .cards-in-row
+                    flex-direction: column
+                    gap: 63px
+                    .road-card
+                        width: 100%
+                        min-height: 200px
+                        .step_img.line::after
+                            display: none
+
         #resources
             .resources-block
                 .resources-cards
+                    flex-direction: column
                     .card
-                        max-width: 378px
+                        max-width: 100%
+                        padding: 0
+                        flex-direction: row
+                        .card-title-text-block
+                            padding: 24px
+                        .card-image
+                            border-radius: 20px 0 0 20px
+
+        #ready-to-start, #free-demo
+            background-size: cover
+            .ready-to-start-block, .free-demo-block
+                .text-block
+                    max-width: unset
+                    flex-basis: 70%
+                .actions
+                    flex-basis: 30%
+                    min-width: 160px

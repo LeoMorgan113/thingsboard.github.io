@@ -106,7 +106,7 @@ description: ""
                         src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Real-time_monitoring_and_location_tracking.webp"
                         alt="Real-time monitoring and location tracking"/>
                 </div>
-                <div class="card-description">
+                <div class="card-description equal-height">
                     <img id="place-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Real-time_monitoring_and_location_tracking.webp"
                         alt="Place icon"/>
@@ -126,7 +126,7 @@ description: ""
                         src="/images/asset-tracking/asset-tracking-landing-shapes&photos/Geo_map_and_image_floor_plan_view.webp"
                         alt="Geo map and image floor plan view"/>
                 </div>
-                <div class="card-description">
+                <div class="card-description equal-height">
                     <img id="asset-icon" class="icon"
                         src="/images/asset-tracking/asset-tracking-landing-icons/Geo_map_and_image_floor_plan_view.webp"
                         alt="Asset icon"/>
@@ -746,54 +746,54 @@ description: ""
         <div class="resources-cards">
             <div class="card">
                 <div class="card-image"
-                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_1.webp') no-repeat top / contain">
+                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_1.webp') no-repeat top / cover">
                 </div>
-                <div class="card-title-text-block">
-                    <h3>
-                        Asset Management System: Processes and Uses Explained
-                    </h3>
-                    <div class="block-text text-sm">
-                        Imagine handling thousands of assets every day without a reliable tracking system.
+                     <div class="card-title-text-block">
+                        <h3>
+                            Asset Management System: Processes and Uses Explained
+                        </h3>
+                        <div class="block-text text-sm">
+                            Imagine handling thousands of assets every day without a reliable tracking system.
+                        </div>
+                        <div class="card-button">
+                            <a href="/"
+                                class="n-button contact-us gtm_button">VIEW BLOG</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card-button">
-                    <a href="/"
-                        class="n-button contact-us gtm_button">VIEW BLOG</a>
-                </div>
             </div>
             <div class="card">
                 <div class="card-image"
-                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_2.webp') no-repeat top / contain">
+                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_2.webp') no-repeat top / cover">
                 </div>
-                <div class="card-title-text-block">
-                    <h3>
-                        Docs Health Implements Powerful Inventory Control
-                    </h3>
-                    <div class="block-text text-sm">
-                        Established in 1990, DOCS Health is recognized as a trusted, reliable leader in providing specialized access to healthcare.
+                    <div class="card-title-text-block">
+                        <h3>
+                            Docs Health Implements Powerful Inventory Control
+                        </h3>
+                        <div class="block-text text-sm">
+                            Established in 1990, DOCS Health is recognized as a trusted, reliable leader in providing specialized access to healthcare.
+                        </div>
+                        <div class="card-button">
+                            <a href="/"
+                                class="n-button contact-us gtm_button">VIEW CASE STUDY</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card-button">
-                    <a href="/"
-                        class="n-button contact-us gtm_button">VIEW CASE STUDY</a>
-                </div>
             </div>
             <div class="card">
                 <div class="card-image"
-                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_3.webp') no-repeat top / contain">
+                    style="background: url('/images/asset-tracking/asset-tracking-landing-shapes&photos/image_3.webp') no-repeat top / cover">
                 </div>
-                <div class="card-title-text-block">
-                    <h3>
-                        Best Practices for Asset Management
-                    </h3>
-                    <div class="block-text text-sm">
-                        Trillions of dollars worth of capital are tied up in business assets and inventory.
+                    <div class="card-title-text-block">
+                        <h3>
+                            Best Practices for Asset Management
+                        </h3>
+                        <div class="block-text text-sm">
+                            Trillions of dollars worth of capital are tied up in business assets and inventory.
+                        </div>
+                        <div class="card-button">
+                            <a href="/"
+                                class="n-button contact-us gtm_button">VIEW WHITE PAPER</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card-button">
-                    <a href="/"
-                        class="n-button contact-us gtm_button">VIEW WHITE PAPER</a>
-                </div>
             </div>
         </div>
     </div>
