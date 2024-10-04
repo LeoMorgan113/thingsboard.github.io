@@ -796,6 +796,21 @@ $textColorInverse: #CFD4D9
                         flex: 0 1 calc(50% - 1em)
 
     @media screen and (max-width: $step3)
+        #first-screen
+            .hero-container
+                #hero-content
+                    .asset-tr-sub-title
+                        width: 100%
+                    .hero-image
+                        .image-wrapper-laptop
+                            right: 0
+                        .image-wrapper-phone
+                            bottom: -8%
+                            right: -2%
+                            img
+                                max-width: 200px
+                                width: 100%
+
         h3
             font-size: 24px
             line-height: 28px
@@ -808,8 +823,31 @@ $textColorInverse: #CFD4D9
             .connectivity-block
                 flex-direction: column-reverse
 
+        #features
+            .right-side-block
+                #feature-background
+                    bottom: 0
+                    width: 75%
+
+        #features-cards
+            .features-cards-block
+                .two-cards-in-row
+                    flex-direction: column
+                    .feature-cards
+                        .card
+                            min-height: unset
+                            flex-basis: 100%
+                            width: 100%
+                            gap: 20px
+                            .card-description, .card-description.equal-height
+                                max-height: unset
+                            height: fit-content
+
         #our-features
-            background-size: 100% 835px, 40% 550px
+            background-size: 100% 950px, 40% 450px
+            .our-features-block
+                .title-block
+                    flex-direction: column
             .solution-image
                 display: none
 
@@ -821,6 +859,16 @@ $textColorInverse: #CFD4D9
                     align-items: center
                     .left-side-block
                         text-align: center
+
+        #other-features
+            .other-features-block
+                .feature-cards
+                    .two-cards-in-row
+                        flex-direction: column
+                        gap: 20px
+                    .card
+                        &.equal, &.small
+                            flex: 0 1 100%
 
         #roadmap
             .roadmap-cards
@@ -841,11 +889,11 @@ $textColorInverse: #CFD4D9
                     .card
                         max-width: 100%
                         padding: 0
-                        flex-direction: row
+                        flex-direction: column
                         .card-title-text-block
                             padding: 24px
                         .card-image
-                            border-radius: 20px 0 0 20px
+                            border-radius: 20px 20px 0 0
 
         #ready-to-start, #free-demo
             background-size: cover
@@ -856,3 +904,9 @@ $textColorInverse: #CFD4D9
                 .actions
                     flex-basis: 30%
                     min-width: 160px
+
+        #partners
+            .partners-block
+                .partners-logo
+                    .logo img
+                        max-width: 200px
